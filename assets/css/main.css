@@ -4301,7 +4301,7 @@ input, select, textarea {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    border-radius: 0.15em;
+    border-radius: 0em;
 }
 
 
@@ -8664,30 +8664,20 @@ input, select, textarea {
 
 
 /* Terramechanics Image Row */
-
 .terramechanics-image-row {
     display: flex;
     gap: 1rem;
     width: 100%;
     margin: 2rem 0;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .terramechanics-image-row img {
-    width: calc((100% - 2rem) / 3);
-    height: auto;
+    height: 14rem;
+    width: auto;
     display: block;
 }
 
-@media screen and (max-width: 736px) {
-    .terramechanics-image-row {
-        flex-wrap: wrap;
-    }
-
-    .terramechanics-image-row img {
-        width: calc((100% - 1rem) / 2);
-    }
-}
 
 
 
